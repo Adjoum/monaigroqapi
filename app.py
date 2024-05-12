@@ -15,7 +15,7 @@ from actions import analyze_and_respond
 load_dotenv()
 
 # Initialisation de l'API Groq
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+client = st.secrets["GROQ_API_KEY"]
 
 
 # Style personnalisé
