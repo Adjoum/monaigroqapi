@@ -9,7 +9,10 @@ __pycache__/
 *.pyd
 
 # Fichiers spécifiques à Streamlit
-.streamlit/
+
+
+# Secrets et informations sensibles
+.streamlit/secrets.toml
 
 # Autres fichiers temporaires ou générés
 *.log
