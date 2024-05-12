@@ -31,14 +31,6 @@ def analyze_and_respond(user_input):
         response = f"Il est {time.strftime('%H:%M:%S')}."
     elif 'date' in user_input:
         response = f"Aujourd'hui, nous sommes le {date.today()}."
-    elif 'musique' in user_input and 'chanson' in user_input:
-        music_dir = 'D:\Music' # Remplacez par le chemin de votre dossier de musique
-        songs = os.listdir(music_dir)
-        if songs:
-            os.startfile(os.path.join(music_dir, songs[0]))
-            response = "Lancement de la première chanson dans votre dossier de musique."
-        else:
-            response = "Votre dossier de musique semble vide."
     elif 'qui es-tu' in user_input:
         response = "Je suis Adjoumani Koffi, un agent IA conçu pour vous aider."
     elif 'ton nom' in user_input:
