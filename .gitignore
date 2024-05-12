@@ -1,0 +1,16 @@
+# Fichiers spécifiques à l'environnement
+.env
+.venv/
+
+# Fichiers de cache et temporaires
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers spécifiques à Streamlit
+.streamlit/
+
+# Autres fichiers temporaires ou générés
+*.log
+*.tmp
